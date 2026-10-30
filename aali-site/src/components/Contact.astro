@@ -1,0 +1,15 @@
+---
+import { localizeCopy, type SiteContent } from '../cms/content';
+import { type Locale } from '../content/site';
+import PageIntro from './PageIntro.astro';
+import Icon from './Icon.astro';
+interface Props { content: SiteContent; locale: Locale; }
+const { locale, content } = Astro.props;
+const t = localizeCopy(content, locale);
+const { company } = content;
+const contact = content.contact;
+if (!contact) throw new Error('Contact content is unavailable');
+
+---
+<PageIntro locale={locale} title={t('لنبدأ بفهم احتياجك.', 'Let’s start with what you need.')} description={t('لأعمال الشركات والمؤسسات، تواصل معنا لمناقشة متطلبات منشأتك ونطاق العمل المناسب.', 'For business and institutional projects, get in touch to discuss your facility and the appropriate scope of work.')}/>
+<section class="section contact-section"><div class="container contact-layout"><div class="contact-primary"><span class="contact-icon"><Icon name="message" size={36}/></span><h2>{t('حديث واحد. بداية واضحة.', 'One conversation. A clear beginning.')}</h2><p>{t('يمكنك الاتصال أو التواصل عبر واتساب على الرقم الموحد خلال ساعات العمل.', 'Call or reach us on WhatsApp using the same number during business hours.')}</p><a class="phone-number" href={contact.tel} dir="ltr">{contact.number}</a><div class="contact-buttons"><a class="button button-gold" href={contact.tel}><Icon name="phone" size={21}/>{t('اتصل بنا', 'Call us')}</a><a class="button button-outline" href={contact.whatsapp} target="_blank" rel="noopener noreferrer"><Icon name="message" size={21}/>{t('تواصل عبر واتساب', 'Chat on WhatsApp')}</a></div></div><div class="contact-information"><article><Icon name="clock" size={27}/><h2>{t('ساعات العمل', 'Business hours')}</h2><p>{contact.days[locale]}</p><strong>{contact.hours[locale]}</strong><span class="timezone">{t('بتوقيت المملكة العربية السعودية', 'Saudi Arabia time (UTC+3)')}</span></article><article><Icon name="pin" size={27}/><h2>{t('المناطق التي نخدمها', 'Regions we serve')}</h2><ul>{company.regions.map(region => <li>{region[locale]}</li>)}</ul></article></div></div></section>

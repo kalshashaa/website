@@ -1,0 +1,49 @@
+---
+import { localizeCopy, routeFor, type SiteContent } from '../cms/content';
+import { type Locale } from '../content/site';
+import Icon from './Icon.astro';
+import ProjectGrid from './ProjectGrid.astro';
+import ContactLink from './ContactLink.astro';
+interface Props { content: SiteContent; locale: Locale; }
+const { locale, content } = Astro.props;
+const t = localizeCopy(content, locale);
+const { company, services, common, media } = content;
+const route = routeFor(content);
+
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="business-label"><span aria-hidden="true"></span>{common.business[locale]}</p>
+      <h1>{content.heroTitle[locale].split('\n').map((line, index) => <>{index > 0 && <br/>}{line}</>)}</h1>
+      <p class="hero-description">{company.introduction[locale]}</p>
+      <div class="hero-actions"><a class="button button-gold" href={route(locale, 'services')}>{common.explore[locale]}<span class="direction-arrow"><Icon name="arrow" size={20}/></span></a><a class="hero-secondary" href={route(locale, 'about')}>{common.viewAbout[locale]}</a></div>
+      <p class="hero-established">{t('أعالي الجزيرة للمقاولات، منذ 1991.', 'Aali Aljazerah. Established in 1991.')}</p>
+    </div>
+    <figure class="hero-image">
+      <img src={media.hero} width="1536" height="1024" alt={t('صورة توضيحية لمبنى تجاري ومستودع بواجهات معدنية وزجاجية', 'Illustrative commercial facility with metal and glass facades')} fetchpriority="high" loading="eager" />
+      <figcaption>{common.illustration[locale]}<span aria-hidden="true">↗</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section services-overview">
+  <div class="container">
+    <div class="section-heading"><div><p class="section-kicker">{t('مجالات عملنا', 'Our expertise')}</p><h2>{t('خدمات تواكب احتياج منشأتك.', 'Services shaped around your facility.')}</h2></div><p>{t('من الصيانة والتطوير إلى التنفيذ والتوريد، نطاق عمل واضح لكل مشروع.', 'From maintenance and refurbishment to construction and supply, with a clear scope for every project.')}</p></div>
+    <div class="service-grid">{services.map(service => <a class="service-card" href={`${route(locale, 'services')}#${service.key}`}><div class="service-icon"><Icon name={service.icon}/></div><h3>{service.title[locale]}</h3><p>{service.summary[locale]}</p><span class="service-arrow direction-arrow"><Icon name="arrow" size={20}/></span></a>)}</div>
+  </div>
+</section>
+
+<section class="section approach-section">
+  <div class="container approach-grid">
+    <div class="approach-title"><p class="section-kicker">{t('فهم المكان أولًا', 'Understand the site first')}</p><h2>{t('لكل منشأة طبيعتها. ولكل مشروع نطاقه.', 'Every facility is different. So is every scope.')}</h2><a class="text-link" href={route(locale, 'about')}>{common.viewAbout[locale]}<span class="direction-arrow"><Icon name="arrow" size={18}/></span></a></div>
+    <div class="approach-copy"><p class="lead">{t('نبدأ بالمعاينة وتقييم الاحتياج، ثم نحدد الأعمال المطلوبة بما يناسب المبنى وطبيعة تشغيله.', 'We begin with a site assessment, then define the work around the building and the way it operates.')}</p><div class="approach-points"><div><Icon name="building"/><h3>{t('احتياج واضح', 'A clear requirement')}</h3><p>{t('فهم الموقع ومتطلباته قبل تحديد الأعمال.', 'Understand the site and its needs before defining the work.')}</p></div><div><Icon name="tools"/><h3>{t('نطاق عمل مناسب', 'An appropriate scope')}</h3><p>{t('خدمات وأعمال تُحدد وفق المشروع، دون باقات ثابتة.', 'Services defined for the project, without fixed packages.')}</p></div></div></div>
+  </div>
+</section>
+
+<section class="section region-section">
+  <div class="container region-grid"><div><p class="section-kicker">{t('نطاق أعمالنا', 'Where we work')}</p><h2>{t('حضور في ثلاث مناطق من المملكة.', 'Serving three regions of the Kingdom.')}</h2><p>{t('نخدم الشركات والمؤسسات في المناطق الوسطى والغربية والشرقية.', 'We serve businesses and institutions in the Central, Western and Eastern regions.')}</p></div><ul class="region-list">{company.regions.map(region => <li><Icon name="pin" size={26}/><span>{region[locale]}</span><span class="region-line" aria-hidden="true"></span></li>)}</ul></div>
+</section>
+
+<section class="section projects-section"><div class="container"><div class="section-heading"><div><p class="section-kicker">{t('أعمال من الواقع', 'Work in practice')}</p><h2>{t('من مشاريع أعالي الجزيرة.', 'From the Aali Aljazerah portfolio.')}</h2></div><p>{t('نماذج من أعمال التجديد والتأهيل والتجهيز، بصورها الفعلية.', 'Examples of refurbishment, restoration and installation, shown through authentic project photographs.')}</p></div><ProjectGrid content={content} locale={locale}/></div></section>
+<ContactLink content={content} locale={locale}/>

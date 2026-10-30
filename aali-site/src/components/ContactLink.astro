@@ -1,0 +1,17 @@
+---
+import { localizeCopy, routeFor, type SiteContent } from '../cms/content';
+import { type Locale } from '../content/site';
+import Icon from './Icon.astro';
+interface Props { content: SiteContent; locale: Locale; }
+const { locale, content } = Astro.props;
+const t = localizeCopy(content, locale);
+const { common } = content;
+const route = routeFor(content);
+
+---
+<section class="contact-strip">
+  <div class="container contact-strip-inner">
+    <div><h2>{t('لنتحدث عن احتياجات منشأتك.', 'Let’s discuss your facility’s needs.')}</h2><p>{t('نبدأ بفهم المطلوب، ثم نحدد نطاق العمل المناسب.', 'We start by understanding the requirement, then define the right scope.')}</p></div>
+    <a class="button button-gold" href={route(locale, 'contact')}>{common.contact[locale]}<span class="direction-arrow"><Icon name="arrow" size={20}/></span></a>
+  </div>
+</section>

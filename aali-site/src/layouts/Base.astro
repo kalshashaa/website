@@ -1,0 +1,87 @@
+---
+import { localizeCopy, routeFor, type SiteContent } from '../cms/content';
+import '@fontsource/ibm-plex-sans-arabic/arabic-400.css';
+import '@fontsource/ibm-plex-sans-arabic/arabic-500.css';
+import '@fontsource/ibm-plex-sans-arabic/arabic-600.css';
+import '@fontsource/ibm-plex-sans-arabic/arabic-700.css';
+import '@fontsource-variable/manrope';
+import '../styles/global.css';
+import { pageKeys, route as publicRoute, type Locale, type PageKey } from '../content/site';
+interface Props { content: SiteContent; locale: Locale; page: PageKey; }
+const { locale, page, content } = Astro.props;
+const other = locale === 'ar' ? 'en' : 'ar';
+const noindex = content.preview || !import.meta.env.PUBLIC_SITE_URL || import.meta.env.PUBLIC_SITE_URL.includes('localhost');
+const t = localizeCopy(content, locale);
+const { company, nav, pageMeta, common, media } = content;
+const route = routeFor(content);
+const meta = pageMeta[page];
+const canonical = new URL(publicRoute(locale, page), Astro.site);
+
+---
+<!doctype html>
+<html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102a42" />
+    <title>{meta.title[locale]}</title>
+    <meta name="description" content={meta.description[locale]} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" type="image/png" href={media.logo} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="ar" href={new URL(route('ar', page), Astro.site)} />
+    <link rel="alternate" hreflang="en" href={new URL(route('en', page), Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(route('ar', page), Astro.site)} />
+    <meta property="og:title" content={meta.title[locale]} />
+    <meta property="og:description" content={meta.description[locale]} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={locale === 'ar' ? 'ar_SA' : 'en_US'} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(media.hero, Astro.site)} />
+    <meta property="og:image:alt" content={common.illustration[locale]} />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">{common.skip[locale]}</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href={route(locale)} aria-label={company.name[locale]}>
+          <img src={media.logo} width="800" height="300" alt={company.name[locale]} loading="eager" />
+        </a>
+        <nav class="desktop-nav" aria-label={t('التنقل الرئيسي', 'Main navigation')}>
+          {pageKeys.map((key) => <a href={route(locale, key)} aria-current={key === page ? 'page' : undefined}>{nav[key][locale]}</a>)}
+        </nav>
+        <div class="header-actions">
+          <a class="language-switch" href={route(other, page)} lang={other} hreflang={other} aria-label={t('View this page in English', 'عرض هذه الصفحة بالعربية')}>{t('EN', 'العربية')}<span aria-hidden="true">◎</span></a>
+          <details class="mobile-nav">
+            <summary aria-label={common.menu[locale]}><span></span><span></span><span></span></summary>
+            <nav aria-label={t('التنقل للجوال', 'Mobile navigation')}>
+              {pageKeys.map((key) => <a href={route(locale, key)} aria-current={key === page ? 'page' : undefined}>{nav[key][locale]}</a>)}
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div>
+          <a class="brand footer-brand" href={route(locale)}><img src={media.logo} width="800" height="300" loading="lazy" alt={company.name[locale]} /></a>
+          <p class="footer-description">{t('مقاولات وصيانة وتوريد، باهتمام بتفاصيل منشأتك.', 'Contracting, maintenance and supply, with attention to your facility’s needs.')}</p>
+        </div>
+        <nav aria-label={t('روابط أسفل الصفحة', 'Footer navigation')}>{pageKeys.map((key) => <a href={route(locale, key)}>{nav[key][locale]}</a>)}</nav>
+        <div class="footer-regions"><p>{t('نطاق أعمالنا', 'Where we work')}</p>{company.regions.map(region => <span>{region[locale]}</span>)}</div>
+      </div>
+      <div class="container footer-bottom"><p>© {new Date().getFullYear()} {company.name[locale]}</p><span>{t('تأسست عام 1991', 'Established in 1991')}</span><a href="#top">{common.backTop[locale]} ↑</a></div>
+    </footer>
+    <script>
+      document.querySelectorAll<HTMLDetailsElement>('.mobile-nav').forEach(menu => {
+        document.addEventListener('keydown', event => {
+          if (event.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary')?.focus(); }
+        });
+        document.addEventListener('click', event => {
+          if (menu.open && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+        });
+      });
+    </script>
+  </body>
+</html>

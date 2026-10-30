@@ -1,0 +1,26 @@
+---
+import { getSecret } from 'astro:env/server';
+import Base from '../../../layouts/Base.astro';
+import Home from '../../../components/Home.astro';
+import About from '../../../components/About.astro';
+import Services from '../../../components/Services.astro';
+import Contact from '../../../components/Contact.astro';
+import { pageKeys, type Locale, type PageKey } from '../../../content/site';
+import { getContent, cmsConfig } from '../../../cms/content';
+import { verifyPreviewSession, previewCookieName } from '../../../../shared/preview-security';
+export const prerender=false;
+const {locale,page}=Astro.params;
+if (!['ar','en'].includes(locale||'')||!pageKeys.includes(page as PageKey)) return new Response('Not found',{status:404});
+const config=cmsConfig();
+const allowed=await verifyPreviewSession(Astro.cookies.get(previewCookieName)?.value,getSecret('PREVIEW_SESSION_SECRET')||'',`${config.projectId}:${config.dataset}`);
+if (!allowed) return new Response('هذه معاينة خاصة. افتحها من لوحة الإدارة بعد تسجيل الدخول.',{status:401});
+if(!config.configured) return new Response('حساب الإدارة غير مربوط بعد.',{status:503});
+let content;
+try { content=await getContent(page as PageKey,true); } catch { return new Response('تعذر تحميل المسودة. راجع اتصال لوحة الإدارة وحاول مجددًا.',{status:503}); }
+const Component={home:Home,about:About,services:Services,contact:Contact}[page as PageKey];
+---
+<Base locale={locale as Locale} page={page as PageKey} content={content}>
+  <div class="preview-toolbar" dir="rtl" role="status"><span>معاينة مسودة خاصة — لم تُنشر هذه التعديلات.</span><a href={Astro.url.pathname}>تحديث المعاينة</a><form method="post" action="/api/preview/disable/"><button type="submit">إنهاء المعاينة</button></form></div>
+  <Component locale={locale as Locale} content={content}/>
+</Base>
+<style>.preview-toolbar{display:flex;gap:20px;align-items:center;flex-wrap:wrap;background:#f1f4f6;color:#102a42;padding:12px 24px;font:500 14px/1.8 'IBM Plex Sans Arabic',sans-serif;border-bottom:2px solid #c6a04b}.preview-toolbar a,.preview-toolbar button{background:white;border:1px solid #dce3e8;padding:8px 14px;color:inherit;font:inherit;cursor:pointer}.preview-toolbar form{margin:0}.preview-toolbar span{flex-grow:1}</style>

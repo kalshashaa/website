@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Home from '../components/Home.astro';
+import About from '../components/About.astro';
+import Services from '../components/Services.astro';
+import Contact from '../components/Contact.astro';
+import { pageKeys, type Locale, type PageKey } from '../content/site';
+import { getContent } from '../cms/content';
+export const prerender = true;
+export function getStaticPaths() {
+  return (['ar', 'en'] as const).flatMap(locale => pageKeys.map(page => ({
+    params: { path: [locale === 'en' ? 'en' : '', page === 'home' ? '' : page].filter(Boolean).join('/') || undefined },
+    props: { locale, page },
+  })));
+}
+const { locale, page } = Astro.props as { locale: Locale; page: PageKey };
+const content = await getContent(page);
+const Component = { home: Home, about: About, services: Services, contact: Contact }[page];
+---
+<Base content={content} locale={locale} page={page}><Component content={content} locale={locale}/></Base>

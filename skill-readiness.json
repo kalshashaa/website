@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-30T21:34:38.275606+00:00",
+  "skills": [
+    {
+      "skill": "frontend-design",
+      "repository": "anthropics/skills",
+      "source_path": "skills/frontend-design",
+      "branch": "main",
+      "observed_main_commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "installed_skill_sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    {
+      "skill": "ui-ux-pro-max",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "source_path": ".claude/skills/ui-ux-pro-max",
+      "branch": "main",
+      "observed_main_commit": "9a3f14f7423037ccb8feeb4fee7482291b9c820e",
+      "installed_skill_sha256": "a08bfae73699ac6d4d6f3f2fbece9e23e00f1d8cad194f7e4d4f89d1b38906c0"
+    }
+  ],
+  "checks": {
+    "frontend_instructions_read": true,
+    "uiux_search_smoke_test": "passed; ux domain; keyboard focus; 1 result",
+    "uiux_codex_adaptation": "absolute installed search script path",
+    "imagegen": "available in session; not invoked",
+    "automatic_discovery": "verify on next user turn"
+  }
+}

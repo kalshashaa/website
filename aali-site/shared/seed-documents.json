@@ -1,0 +1,1186 @@
+[
+  {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "value": {
+      "company": {
+        "name": {
+          "ar": "أعالي الجزيرة للمقاولات",
+          "en": "Aali Aljazerah",
+          "reviewHash": "8f5372d4a8b06274e2dae0acb4a804bd611349ddc2c144627c646f662b0ccb6f"
+        },
+        "shortName": {
+          "ar": "أعالي الجزيرة",
+          "en": "Aali Aljazerah",
+          "reviewHash": "d580e6710001d4b86377a28ad145339f56c48c4d52926fcf674a0276bc8153f6"
+        },
+        "introduction": {
+          "ar": "نقدّم للشركات والمؤسسات أعمال المقاولات والصيانة والديكور والتوريد، وفق احتياج كل منشأة وطبيعة أعمالها.",
+          "en": "Contracting, maintenance, interiors and supply for businesses and institutions, shaped around each facility and its needs.",
+          "reviewHash": "f7c47adcf1c17479c30a3385dca2811714caf1300b566e4e104b03ea19f64839"
+        },
+        "regions": [
+          {
+            "ar": "المنطقة الوسطى",
+            "en": "Central Region",
+            "reviewHash": "6a78a5201e01bee15c141ee8ee2f079ad3680751dc8d9d37cc430058501c022d"
+          },
+          {
+            "ar": "المنطقة الغربية",
+            "en": "Western Region",
+            "reviewHash": "0812dc7f0329958fad77deb3eb800c29a2e32178ff2d491cbd1cba9114e4123b"
+          },
+          {
+            "ar": "المنطقة الشرقية",
+            "en": "Eastern Region",
+            "reviewHash": "80c0e23459d834bcb02605f9690c99989d23c4d3c1ae8aba3f5889fd70099941"
+          }
+        ]
+      },
+      "media": {
+        "logo": {
+          "localPath": "/images/logo.png"
+        },
+        "hero": {
+          "localPath": "/images/commercial-facility.webp"
+        }
+      },
+      "heroTitle": {
+        "ar": "نهتم بمنشأتك،\nمن التفاصيل\nإلى التنفيذ.",
+        "en": "Your facility.\nEvery detail.\nBuilt with care.",
+        "reviewHash": "8c476008f73ae39d348095d2397dcb3e04de6ec9f871b48673591dbb4fb285f0"
+      }
+    }
+  },
+  {
+    "_id": "sharedCopy",
+    "_type": "sharedCopy",
+    "value": {
+      "common": {
+        "explore": {
+          "ar": "استكشف خدماتنا",
+          "en": "Explore our services",
+          "reviewHash": "3756e0ae8ec254498cd96242cc18a6376babccd01a5d9d7fd54870ff74c06de8"
+        },
+        "contact": {
+          "ar": "تواصل معنا",
+          "en": "Contact us",
+          "reviewHash": "96898c7fc090eae771e9a7d9b4a23d58ee135f4a84e9db0b781f693f137cd5f2"
+        },
+        "allServices": {
+          "ar": "جميع الخدمات",
+          "en": "All services",
+          "reviewHash": "b1be50ff610790efb8d86030f63a291bd181450c65efc4bba4fc9b63e3656a86"
+        },
+        "serviceDetails": {
+          "ar": "تفاصيل الخدمات",
+          "en": "Service details",
+          "reviewHash": "bcc1d9cfa83fab8847a5f01979d47bd3bae3dc437b0af0681405ac0c58265634"
+        },
+        "viewAbout": {
+          "ar": "تعرّف على الشركة",
+          "en": "Get to know us",
+          "reviewHash": "0ffdd7ef57e0c4b8d7f4c50e6a48d91ebbe975dde7fa0def7ad9b5dc3a755800"
+        },
+        "backTop": {
+          "ar": "العودة إلى الأعلى",
+          "en": "Back to top",
+          "reviewHash": "82b1d2e14426404f8d8df93eb081b7d118560104917e4e1192676fdc0fde2b76"
+        },
+        "business": {
+          "ar": "للشركات والمؤسسات",
+          "en": "For businesses & institutions",
+          "reviewHash": "c55ba9dfd6e334307307cb63618e315d8b329d92b4e9606e8d8dd19f8eec769e"
+        },
+        "illustration": {
+          "ar": "صورة توضيحية للخدمات",
+          "en": "Illustrative service image",
+          "reviewHash": "b1725f2a11f3ff36b8bd2eb0f5126dd30e74bb995bbd62f7b197078eea49c714"
+        },
+        "actual": {
+          "ar": "من أعمال الشركة",
+          "en": "From our project portfolio",
+          "reviewHash": "75154a7f9795391298593d7ead529f5726a03ccca73e108e1378ade9b006f073"
+        },
+        "skip": {
+          "ar": "انتقل إلى المحتوى",
+          "en": "Skip to content",
+          "reviewHash": "f56b37e29182dcd070707044e686b92456cf40fe8f226e18d4d5f663eda12da2"
+        },
+        "menu": {
+          "ar": "القائمة",
+          "en": "Menu",
+          "reviewHash": "53bf2646932aea38d0f6260671bc34847fedc7c949c972ba901027a0a5ecfb23"
+        }
+      },
+      "nav": {
+        "home": {
+          "ar": "الرئيسية",
+          "en": "Home",
+          "reviewHash": "133f43acc463921bc359138de01c5622554ffef2d7d6c5ce635699aae39bef23"
+        },
+        "about": {
+          "ar": "عن الشركة",
+          "en": "About",
+          "reviewHash": "5165fd3755e4fc2307f8cb7c9e6ee83bb38f8d7e618484dd78bd9015cb54c1dd"
+        },
+        "services": {
+          "ar": "الخدمات",
+          "en": "Services",
+          "reviewHash": "c73d521825b7190dd33c008236c7fb1a9333fb447ee1ada1949998dd682dfaae"
+        },
+        "contact": {
+          "ar": "تواصل معنا",
+          "en": "Contact",
+          "reviewHash": "a6d8a6489cf1f35458179197b5f06d1e881dc4c61f4a41919d2f55d1843b5827"
+        }
+      },
+      "copy": {
+        "text_c5a8374a": {
+          "ar": "التنقل الرئيسي",
+          "en": "Main navigation",
+          "reviewHash": "8074185e491c3a330fa9245093cbf87f1b9997c20a329bebc090175220d887a0"
+        },
+        "text_76bb74a4": {
+          "ar": "View this page in English",
+          "en": "عرض هذه الصفحة بالعربية",
+          "reviewHash": "9ab6776d62c393c6dab47c1fd7d1477e8e4d14abc230bf9f9286571c1a2bceb3"
+        },
+        "text_a76ce029": {
+          "ar": "EN",
+          "en": "العربية",
+          "reviewHash": "1544283279d99b690f9a86d8e2567afd1ad7ddf0ab3b8d3e421f63d275f5ff86"
+        },
+        "text_cdfbccf3": {
+          "ar": "التنقل للجوال",
+          "en": "Mobile navigation",
+          "reviewHash": "45ff58a634a94f08049789830cdbc5944f13c68e93cd7e052142da05aca2b1e4"
+        },
+        "text_b2e5c4dc": {
+          "ar": "مقاولات وصيانة وتوريد، باهتمام بتفاصيل منشأتك.",
+          "en": "Contracting, maintenance and supply, with attention to your facility’s needs.",
+          "reviewHash": "5052b94d605c19458e71a332968b46f81dfc26c6fc6dae9fdef1f93213fc06c6"
+        },
+        "text_399acf9c": {
+          "ar": "روابط أسفل الصفحة",
+          "en": "Footer navigation",
+          "reviewHash": "1b18d52fb1cd0a682721a75b4ee70903e8cda78df1804f02405cd8d3235766e0"
+        },
+        "text_b7627b60": {
+          "ar": "تأسست عام 1991",
+          "en": "Established in 1991",
+          "reviewHash": "f9867b0e5004ae6642adc1359d3a4f558c5aeb94024f09a6a77ac63e80cfb51f"
+        },
+        "text_e0206f51": {
+          "ar": "لنتحدث عن احتياجات منشأتك.",
+          "en": "Let’s discuss your facility’s needs.",
+          "reviewHash": "dbd24f0f64e8e0039ac11ab7c69bb7ec06ac3288aea93b71f5ef182d3aa9a068"
+        },
+        "text_4881d6d7": {
+          "ar": "نبدأ بفهم المطلوب، ثم نحدد نطاق العمل المناسب.",
+          "en": "We start by understanding the requirement, then define the right scope.",
+          "reviewHash": "83391e75fdbe8fc77c4cac094e74b698f4eb82670bf43fabda71931c871dbffe"
+        },
+        "text_3746c908": {
+          "ar": "عن المشروع",
+          "en": "About the project",
+          "reviewHash": "d44bc65f7665c6d7dcf2f62d843df9d47ad6f8b1f72f17fc6b4130514769da79"
+        }
+      }
+    }
+  },
+  {
+    "_id": "page.home",
+    "_type": "page",
+    "key": "home",
+    "value": {
+      "meta": {
+        "title": {
+          "ar": "أعالي الجزيرة للمقاولات | صيانة وتطوير وتوريد",
+          "en": "Aali Aljazerah | Contracting, maintenance & supply",
+          "reviewHash": "3c7095b57a11f3946bb4acfc32d7df3953773cb2e5dcec97ae58a65cc2f9ae43"
+        },
+        "description": {
+          "ar": "نقدّم للشركات والمؤسسات أعمال المقاولات والصيانة والديكور والتوريد، وفق احتياج كل منشأة وطبيعة أعمالها.",
+          "en": "Contracting, maintenance, interiors and supply for businesses and institutions, shaped around each facility and its needs.",
+          "reviewHash": "f7c47adcf1c17479c30a3385dca2811714caf1300b566e4e104b03ea19f64839"
+        }
+      },
+      "copy": {
+        "text_8027ae95": {
+          "ar": "نطاق أعمالنا",
+          "en": "Where we work",
+          "reviewHash": "a57e01894c7febd0ec87b54190e26fcab36bedb7896c63451a86a9df85caabcb"
+        },
+        "text_dd013415": {
+          "ar": "أعالي الجزيرة للمقاولات، منذ 1991.",
+          "en": "Aali Aljazerah. Established in 1991.",
+          "reviewHash": "2df74671eba0bbc3a6b969b35027369c9d1f667588f0f28e1a186c2f1bab3ed3"
+        },
+        "text_f8c1fea9": {
+          "ar": "صورة توضيحية لمبنى تجاري ومستودع بواجهات معدنية وزجاجية",
+          "en": "Illustrative commercial facility with metal and glass facades",
+          "reviewHash": "6a9b9c3aa128ae664e8e5c63c2f59b96255596df1e44267ebc71cd48af009240"
+        },
+        "text_e808b8a6": {
+          "ar": "مجالات عملنا",
+          "en": "Our expertise",
+          "reviewHash": "c02086b40329e35697308d00d2069942e7ea6fb803782db1667a108b24f6cfce"
+        },
+        "text_944fb055": {
+          "ar": "خدمات تواكب احتياج منشأتك.",
+          "en": "Services shaped around your facility.",
+          "reviewHash": "8866df7edf0f7f7e7379aace4a604e18502a29aa752cbe1c1a390b71fc714a58"
+        },
+        "text_a5a22bce": {
+          "ar": "من الصيانة والتطوير إلى التنفيذ والتوريد، نطاق عمل واضح لكل مشروع.",
+          "en": "From maintenance and refurbishment to construction and supply, with a clear scope for every project.",
+          "reviewHash": "1b21cf9f2800601196faa34c6bb04560f2775b66b5baf73e6c691a88bd45bc35"
+        },
+        "text_16f73e25": {
+          "ar": "فهم المكان أولًا",
+          "en": "Understand the site first",
+          "reviewHash": "cc7a6024873ddb3a669a534c87dfe5ebf4e5210b3c81cc63715dfd39f76a4abf"
+        },
+        "text_2d3fef5": {
+          "ar": "لكل منشأة طبيعتها. ولكل مشروع نطاقه.",
+          "en": "Every facility is different. So is every scope.",
+          "reviewHash": "d3248f4c3bb980d3924d4463bac379d60f10d8bc6af0b459d999a4323ef5f68a"
+        },
+        "text_a399435b": {
+          "ar": "نبدأ بالمعاينة وتقييم الاحتياج، ثم نحدد الأعمال المطلوبة بما يناسب المبنى وطبيعة تشغيله.",
+          "en": "We begin with a site assessment, then define the work around the building and the way it operates.",
+          "reviewHash": "da36708c649fa0a3edcf965b900866097a25a595945580cccc9112388e8bb8ee"
+        },
+        "text_848ef66": {
+          "ar": "احتياج واضح",
+          "en": "A clear requirement",
+          "reviewHash": "89f423a7955abd2e0b5534e63e82393c3804f32453f109c6e57106b903e83469"
+        },
+        "text_8aa3262": {
+          "ar": "فهم الموقع ومتطلباته قبل تحديد الأعمال.",
+          "en": "Understand the site and its needs before defining the work.",
+          "reviewHash": "be2edc981d5a6f41bb55227ac2b83d6baa00168bfdec1f94312e92225aa5b10f"
+        },
+        "text_ff1c5aa5": {
+          "ar": "نطاق عمل مناسب",
+          "en": "An appropriate scope",
+          "reviewHash": "98539fba36fe3ead4b8ab64987cae68e592668fe3f77437f2ae6c718f4da5107"
+        },
+        "text_fb718974": {
+          "ar": "خدمات وأعمال تُحدد وفق المشروع، دون باقات ثابتة.",
+          "en": "Services defined for the project, without fixed packages.",
+          "reviewHash": "098b97a0c5e17e3d248f807854f1e86c6fc02a9b97a2886a0a2a622d48014377"
+        },
+        "text_7aa24dc9": {
+          "ar": "حضور في ثلاث مناطق من المملكة.",
+          "en": "Serving three regions of the Kingdom.",
+          "reviewHash": "046090cd5fe96ce1c2d9ea190e7a6d75c51514b7639d107aacf96b160d2910fa"
+        },
+        "text_7bfb3c29": {
+          "ar": "نخدم الشركات والمؤسسات في المناطق الوسطى والغربية والشرقية.",
+          "en": "We serve businesses and institutions in the Central, Western and Eastern regions.",
+          "reviewHash": "377cf182ee809ba88753cec7ee63d35dad0b606b077ddd2e0d4f979cdb794ac5"
+        },
+        "text_ccb409a8": {
+          "ar": "أعمال من الواقع",
+          "en": "Work in practice",
+          "reviewHash": "7463befc41c54d13d79f06084fa789095c9fe64e03db2f4d9ead1f4a43b43204"
+        },
+        "text_780e3463": {
+          "ar": "من مشاريع أعالي الجزيرة.",
+          "en": "From the Aali Aljazerah portfolio.",
+          "reviewHash": "227233da2959026fca4687930b58ec5604fbb6a2010b2aa9492a4b66eaee141c"
+        },
+        "text_939e8253": {
+          "ar": "نماذج من أعمال التجديد والتأهيل والتجهيز، بصورها الفعلية.",
+          "en": "Examples of refurbishment, restoration and installation, shown through authentic project photographs.",
+          "reviewHash": "339ab70c0b9b70341a1b86221b41aa554f37e40d4ddf1773a3cf0d176a6a8c52"
+        }
+      }
+    }
+  },
+  {
+    "_id": "page.about",
+    "_type": "page",
+    "key": "about",
+    "value": {
+      "meta": {
+        "title": {
+          "ar": "عن الشركة | أعالي الجزيرة للمقاولات",
+          "en": "About | Aali Aljazerah",
+          "reviewHash": "e3f1dccb147f9b1a15cebcb4c3af8ab699957b56d161278f5501c6a3c87fcd3e"
+        },
+        "description": {
+          "ar": "تعرّف على أعالي الجزيرة للمقاولات، تأسست عام 1991، وعلى خدماتها وأعمالها للشركات والمؤسسات.",
+          "en": "Learn about Aali Aljazerah, founded in 1991, and its work for businesses and institutions.",
+          "reviewHash": "9dcc03187ed68b44f915847ad7b7616750030d1967c723234f4411188e9ab5d0"
+        }
+      },
+      "copy": {
+        "text_acc2d2e6": {
+          "ar": "أعالي الجزيرة. اهتمام بالمكان.",
+          "en": "Aali Aljazerah. Care for the place.",
+          "reviewHash": "1ab95ebb4e746a5567e301403dd9e432ee9280ed99ef91f7d228e2bf024f8e23"
+        },
+        "text_cc90880": {
+          "ar": "شركة مقاولات تأسست عام 1991، تقدّم خدماتها للشركات والمؤسسات في المملكة العربية السعودية.",
+          "en": "A contracting company founded in 1991, serving businesses and institutions in Saudi Arabia.",
+          "reviewHash": "5ba0e19037867c1d90821915db4479c1d8fc3df294dcfdf452775cb04fd1f3de"
+        },
+        "text_8e47f00f": {
+          "ar": "نعتني بتفاصيل منشأتك ومتطلبات أعمالك.",
+          "en": "Attention to your facility and the work it needs.",
+          "reviewHash": "197401f18c70fd30e21e0e79275c08f8ca72a5dda92c2424a2985891fe4d7c00"
+        },
+        "text_fe0a3d3d": {
+          "ar": "تتنوع أعمالنا بين عقود الصيانة المصممة بحسب الاحتياج، وأعمال التطوير والديكور، وإنشاء المستودعات وغرف الساندوتش بانل والحدائق، والتكييف والتوريد والأعمال الفنية المساندة.",
+          "en": "Our work spans tailored maintenance contracts, refurbishment and interiors, warehouse and sandwich-panel room construction, garden works, air conditioning, supply and supporting technical services.",
+          "reviewHash": "f633f7562bebdff4291bcbb6163a210b34524281d1dc2b14bfa4ca5f986d6168"
+        },
+        "text_ed837558": {
+          "ar": "نخدم منشآت الأعمال في المناطق الوسطى والغربية والشرقية، ونبدأ بفهم الموقع ومتطلباته لتحديد نطاق التنفيذ المناسب.",
+          "en": "We work in the Central, Western and Eastern regions, beginning with an understanding of each site to establish an appropriate scope.",
+          "reviewHash": "8c4b2ad29a0f077a505e9abc3be5a225cd8dada2626412b2712e4776d8bda1f5"
+        },
+        "text_b2c6635f": {
+          "ar": "رؤيتنا",
+          "en": "Our vision",
+          "reviewHash": "bb3da7d0679320bb0e6f8ef27198116c50a8341733da9568850cf39c6fe521ec"
+        },
+        "text_b21529d0": {
+          "ar": "أن نكون جهة يعتمد عليها عملاؤنا في العناية بمنشآتهم وتطويرها، من خلال أعمال تراعي احتياجات المكان وجودة استخدامه.",
+          "en": "To be a dependable partner in the care and development of our clients’ facilities, with work that responds to the needs and use of each place.",
+          "reviewHash": "bba56fab0409c5c1696edf00130de3bc093718e8a09594acb5ce6cd9692f9d12"
+        },
+        "text_d04d176b": {
+          "ar": "رسالتنا",
+          "en": "Our mission",
+          "reviewHash": "76b22059c062eaaa9ff1dfdf93bbab2682d843fa8aad262d5c79bbd9b9227998"
+        },
+        "text_6ccc25ea": {
+          "ar": "تقديم خدمات مقاولات وصيانة وتوريد بنطاق واضح وتنفيذ مسؤول، مع الاهتمام بالتفاصيل التي تساعد المنشأة على أداء عملها.",
+          "en": "To deliver contracting, maintenance and supply with a clear scope, responsible execution and attention to the details that support a facility’s operation.",
+          "reviewHash": "938be16e3d8901d265825b829b2998e2e30d5a17e2ea18a3717e86b1fa473e03"
+        },
+        "text_fe943bb3": {
+          "ar": "طريقة العمل",
+          "en": "Our approach",
+          "reviewHash": "816837b64e5629a9d2582a19f982ba9eda9d6252deea44cd7daf32f2198cc762"
+        },
+        "text_1a6569be": {
+          "ar": "نبدأ بما يحتاجه الموقع.",
+          "en": "Start with what the site needs.",
+          "reviewHash": "2d3b8b404fc737157f77aa7bc0aa5196ee7791e3c0dd0c82496a464ce9756ae6"
+        },
+        "text_27e0a13f": {
+          "ar": "في عقود الصيانة، نراجع عمر المبنى ومساحته وعدد الوحدات ومتطلباته قبل إعداد العقد.",
+          "en": "For maintenance contracts, we review the building age, area, unit count and requirements before preparing the scope.",
+          "reviewHash": "d12e64fdfe1c7848d3579093e37c55f46a066da05ed16c8c06b7f15e0592c423"
+        },
+        "text_897fbfcb": {
+          "ar": "فهم الاحتياج",
+          "en": "Understand the requirement",
+          "reviewHash": "70a702ca03ca6db73655c04965f1be45b0ee87d6a7220af1f654e13cebf68bee"
+        },
+        "text_f342faac": {
+          "ar": "مناقشة المطلوب وطبيعة المنشأة.",
+          "en": "Discuss the work required and the nature of the facility.",
+          "reviewHash": "2da8cec375548cdf518fca78e93cc83a5ae03ba4193d6fc9e574baf874858542"
+        },
+        "text_aa769f6b": {
+          "ar": "المعاينة والتقييم",
+          "en": "Assess the site",
+          "reviewHash": "cd67284ea8ee6e6850647b1ae1e29240510229bb0a04835866af92b4a5f7a5c7"
+        },
+        "text_75c7c0a0": {
+          "ar": "زيارة الموقع وتقييم عناصره ومتطلباته.",
+          "en": "Visit the site and review its conditions and requirements.",
+          "reviewHash": "6d9abcfa379fb0b86f09e2a48f2a35a3c3217dbfee031cd3805182765470f78d"
+        },
+        "text_957bf85": {
+          "ar": "تحديد نطاق العمل",
+          "en": "Define the scope",
+          "reviewHash": "4434c9ab80956990593f33759857cb42f7d8dfd4c8f2c4e7db1e2ab76912a1ee"
+        },
+        "text_76224e8d": {
+          "ar": "إعداد الأعمال المناسبة للاحتياج الذي تمت مراجعته.",
+          "en": "Prepare an appropriate scope based on the reviewed needs.",
+          "reviewHash": "1f10222fae5af563cb7c68778cac9ddbd949e2bcd5b8561241826f072542c0bf"
+        },
+        "text_e239bd1c": {
+          "ar": "من أعمال الشركة",
+          "en": "Company portfolio",
+          "reviewHash": "d7636d2c97baa9d286e3791e33f377211dd753f04933a44f25e933aa2a52a874"
+        },
+        "text_d54bd413": {
+          "ar": "أعمال متنوعة، في مواقع فعلية.",
+          "en": "Different scopes. Real places.",
+          "reviewHash": "fdffaa06f737103473ad58df6a2b11b1d0304d481e45c808934a10a76bb3a54a"
+        },
+        "text_ff49e626": {
+          "ar": "صور ووصف للأعمال المنفذة، كما وثقها بروفايل الشركة.",
+          "en": "Project photographs and work descriptions documented in the company profile.",
+          "reviewHash": "71a4bc812cbdc8240eb4cbbf2c87a7511d4272f758600d5f92de60614bac88c3"
+        }
+      }
+    }
+  },
+  {
+    "_id": "page.services",
+    "_type": "page",
+    "key": "services",
+    "value": {
+      "meta": {
+        "title": {
+          "ar": "خدماتنا | أعالي الجزيرة للمقاولات",
+          "en": "Services | Aali Aljazerah",
+          "reviewHash": "83fe77193252fbbe6673e837bac8cd681768cfb7d5e476b0d7cd8058fdf43f7c"
+        },
+        "description": {
+          "ar": "استعرض خدمات الصيانة والديكور والإنشاءات والتكييف والتوريد والأعمال الفنية للشركات والمؤسسات.",
+          "en": "Explore maintenance, interiors, construction, air conditioning, supply and technical services for commercial facilities.",
+          "reviewHash": "0a3522ace4f49d38b0cc8baad7b9869ef01da5c918d275c01a1e945a29773573"
+        }
+      },
+      "copy": {
+        "text_a7b7c46": {
+          "ar": "أعمال متكاملة. نطاق واضح.",
+          "en": "Connected services. A clear scope.",
+          "reviewHash": "fe255c0863e69abb40287247d81dd34d3307c44dc49960fba09cec94575eafdd"
+        },
+        "text_280b0fe7": {
+          "ar": "استعرض خدماتنا للشركات والمؤسسات. يُحدد نطاق كل عمل بحسب احتياج المشروع والمعاينة.",
+          "en": "Explore our services for businesses and institutions. Each scope is defined around the project’s needs and site assessment.",
+          "reviewHash": "688088215cc7654557430adb674e40fc8d86a09c98bc4120c945d1f60aeeaaea"
+        },
+        "text_6247d662": {
+          "ar": "انتقل إلى الخدمة",
+          "en": "Jump to a service",
+          "reviewHash": "e22fdd9d1b2c280ad185f065f7887571119a7d71a7108d2b8e010998e9102da4"
+        }
+      }
+    }
+  },
+  {
+    "_id": "page.contact",
+    "_type": "page",
+    "key": "contact",
+    "value": {
+      "meta": {
+        "title": {
+          "ar": "تواصل معنا | أعالي الجزيرة للمقاولات",
+          "en": "Contact | Aali Aljazerah",
+          "reviewHash": "40eb239ef6972425e0a92c47d1c856602349c2a8045f1c097dc3440aa46603f0"
+        },
+        "description": {
+          "ar": "تواصل مع أعالي الجزيرة للمقاولات لمناقشة احتياجات منشأتك، من الأحد إلى الخميس خلال ساعات العمل.",
+          "en": "Contact Aali Aljazerah to discuss your facility requirements during Sunday-Thursday business hours.",
+          "reviewHash": "5b44ace96a0ec3a32cde10967b053b20f1b0e2710522161bed2a13a5d3da340d"
+        }
+      },
+      "copy": {
+        "text_d3023549": {
+          "ar": "لنبدأ بفهم احتياجك.",
+          "en": "Let’s start with what you need.",
+          "reviewHash": "cb8ba663ed31abf3426c4f65813eb9c75cf7fbe4336f2f3ce4969ba978db88f2"
+        },
+        "text_9c1e78a0": {
+          "ar": "لأعمال الشركات والمؤسسات، تواصل معنا لمناقشة متطلبات منشأتك ونطاق العمل المناسب.",
+          "en": "For business and institutional projects, get in touch to discuss your facility and the appropriate scope of work.",
+          "reviewHash": "925c9a9f639385cedee4192571ffba9cffb70ebee681c09f3afdb543e97e5728"
+        },
+        "text_be8556f1": {
+          "ar": "حديث واحد. بداية واضحة.",
+          "en": "One conversation. A clear beginning.",
+          "reviewHash": "6e51787520beeafbf20b3630938167d497b5d979eafe45cb6965e7ceca8096ca"
+        },
+        "text_5fdefafe": {
+          "ar": "يمكنك الاتصال أو التواصل عبر واتساب على الرقم الموحد خلال ساعات العمل.",
+          "en": "Call or reach us on WhatsApp using the same number during business hours.",
+          "reviewHash": "f25f0aec7311527b963590b879fcc13af53f5455553b50f3144ce12fcf1f8c93"
+        },
+        "text_9e05644b": {
+          "ar": "اتصل بنا",
+          "en": "Call us",
+          "reviewHash": "023bd57a37fce7302e66a44553281ee10a69a2b95465397beb1568fead14f353"
+        },
+        "text_cbd00a": {
+          "ar": "تواصل عبر واتساب",
+          "en": "Chat on WhatsApp",
+          "reviewHash": "4af9903de5e6f257122854d08f50d5ef9999e09ca54a0661f7df54dec0472c8a"
+        },
+        "text_f4ad91b8": {
+          "ar": "ساعات العمل",
+          "en": "Business hours",
+          "reviewHash": "86a1aa8478541164b1b625d92da9b544a1b1764dc036d7bbf1849b498a481a86"
+        },
+        "text_37960153": {
+          "ar": "بتوقيت المملكة العربية السعودية",
+          "en": "Saudi Arabia time (UTC+3)",
+          "reviewHash": "3f944b889033e5b44fd8dfab089cbd9171cd5cd7f5e9bc70ffae23c63000cf5c"
+        },
+        "text_1a6571b1": {
+          "ar": "المناطق التي نخدمها",
+          "en": "Regions we serve",
+          "reviewHash": "f3758b03e7984780e6d29085c6ad789b5b328d302395e5d5100acbfb7786f250"
+        }
+      }
+    }
+  },
+  {
+    "_id": "service.maintenance",
+    "_type": "service",
+    "key": "maintenance",
+    "value": {
+      "key": "maintenance",
+      "icon": "tools",
+      "title": {
+        "ar": "عقود الصيانة السنوية",
+        "en": "Annual maintenance",
+        "reviewHash": "922c84ecf650dd4c9e916bc36111ba7d1bef0c88f8409faaf67c2ab7ce9faf68"
+      },
+      "summary": {
+        "ar": "عقود تُعدّ وفق احتياج المنشأة بعد الزيارة والمعاينة.",
+        "en": "Maintenance contracts tailored to the facility following a site assessment.",
+        "reviewHash": "0fac7d454f909f54661421bdab823793dc966bf9c943c14e1188bffb20422315"
+      },
+      "description": {
+        "ar": "نقيّم عمر المبنى ومساحته وعدد الوحدات ومتطلبات التشغيل، ثم نحدد نطاق العقد بما يناسب المنشأة. لا نعتمد باقات ثابتة؛ لكل موقع احتياجاته.",
+        "en": "We assess the building age, area, number of units and operating needs before defining the contract. Each site has its own requirements; we do not offer fixed maintenance packages.",
+        "reviewHash": "bec6857828a0ef427362d42b9723b8e462e366308bc19fcca42fe0313d25c721"
+      },
+      "items": [
+        {
+          "ar": "النظافة وصيانة الخزانات",
+          "en": "Cleaning and tank maintenance",
+          "reviewHash": "f472f89961ddf0a63417cc10a5180aee456b9ee2c8a4df99aa52ff780a8a40ef"
+        },
+        {
+          "ar": "الكهرباء والسباكة والتكييف",
+          "en": "Electrical, plumbing and air conditioning",
+          "reviewHash": "445716173e76d41ca515fe388b89c1df90cf072e1f2a5e63ee20522dc200bdf7"
+        },
+        {
+          "ar": "المصاعد والأجهزة الكهربائية",
+          "en": "Elevators and electrical appliances",
+          "reviewHash": "b7e5dfeb73986d182b6069eac6df446e8133e5ca8ce8ce4580c677f36dd6d0ff"
+        },
+        {
+          "ar": "الأبواب الزجاجية الآلية بالحساس",
+          "en": "Sensor-operated automatic glass doors",
+          "reviewHash": "bc95650bddd805cc4b3062a8fd4182867138f1d35de2016fbd3e7f8f3ecd81c2"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.interiors",
+    "_type": "service",
+    "key": "interiors",
+    "value": {
+      "key": "interiors",
+      "icon": "interior",
+      "title": {
+        "ar": "الديكور والتشطيبات",
+        "en": "Interiors & finishes",
+        "reviewHash": "a253856b003e0b24e5e0b64089ee04a128a0c01b41fa567dd1caa85f8163b313"
+      },
+      "summary": {
+        "ar": "تصميم وتنفيذ أعمال الديكور للبيئات التجارية.",
+        "en": "Interior design and execution for commercial environments.",
+        "reviewHash": "b6f9980213cc7fd363d610096a8e0b392fa1cbd6abf3a8572ef11534f9ed2653"
+      },
+      "description": {
+        "ar": "نصمم وننفذ أعمال الديكور بما يناسب استخدام المكان وهويته، من الجبس والأعمال الخشبية إلى الإضاءة والتشطيبات الداخلية.",
+        "en": "We design and execute interiors to suit a space’s purpose and identity, from gypsum and woodwork to lighting and interior finishes.",
+        "reviewHash": "4115b7016c8483f2fd10c5da652c28501c7af814cba2ae015c20149d6e4359db"
+      },
+      "items": [
+        {
+          "ar": "أعمال الجبس والأسقف والقواطع",
+          "en": "Gypsum, ceilings and partitions",
+          "reviewHash": "1b29b77af19d31b2e0a7085649aeaa6cb00745908d0fe5ace21693651efe7871"
+        },
+        {
+          "ar": "الأعمال الخشبية والنجارة",
+          "en": "Woodwork and carpentry",
+          "reviewHash": "e1e43f668b58dcc96eee77a61ba860c5091d840fa91b5957d0b153e83f6c9873"
+        },
+        {
+          "ar": "الإضاءة والتشطيبات الداخلية",
+          "en": "Lighting and interior finishes",
+          "reviewHash": "c4fe964e1a8c0493373dd4b5ad28ca9d5769d4dd56d41a397b6bd260759da08b"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.construction",
+    "_type": "service",
+    "key": "construction",
+    "value": {
+      "key": "construction",
+      "icon": "building",
+      "title": {
+        "ar": "الأعمال الإنشائية",
+        "en": "Construction works",
+        "reviewHash": "bb371520da3cc4cfc95b0e1a83bed9117c4d52ff3c234785e3b4fe66ae7a612f"
+      },
+      "summary": {
+        "ar": "مستودعات وغرف ساندوتش بانل وأعمال حدائق متكاملة.",
+        "en": "Warehouses, sandwich-panel rooms and complete garden works.",
+        "reviewHash": "a816c8cad1b7beea2c037a2df7b3606e9819707402154735c9381ed8e371c863"
+      },
+      "description": {
+        "ar": "ننفذ إنشاء المستودعات الكبيرة وغرف الساندوتش بانل وفق متطلبات المشروع، إلى جانب إنشاء الحدائق بصورة متكاملة. لا يشمل نطاقنا إنشاء البيوت أو العمائر.",
+        "en": "We construct large warehouses and sandwich-panel rooms to project requirements, alongside complete garden works. Our construction scope does not include houses or apartment buildings.",
+        "reviewHash": "3eecf129a7c40ee124d6a0e064573443a3a43dd781b06729d05e44bbd558363c"
+      },
+      "items": [
+        {
+          "ar": "إنشاء المستودعات",
+          "en": "Warehouse construction",
+          "reviewHash": "3bbe6d7be07582747507464f444051dd8aeb5da9aa79595b7ba3978091f79a79"
+        },
+        {
+          "ar": "غرف الساندوتش بانل",
+          "en": "Sandwich-panel rooms",
+          "reviewHash": "8800de07039cb8993629c6aa983c1d0f6f8e67708cab604d5c4affec70bcf07a"
+        },
+        {
+          "ar": "إنشاء الحدائق",
+          "en": "Complete garden works",
+          "reviewHash": "d1b741e69d8fe131c4c7c5a276e11871a988dfdee1681bc80938eb16c87e22eb"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.air-conditioning",
+    "_type": "service",
+    "key": "air-conditioning",
+    "value": {
+      "key": "air-conditioning",
+      "icon": "air",
+      "title": {
+        "ar": "أنظمة التكييف",
+        "en": "Air conditioning",
+        "reviewHash": "a4a4edf3dbbd59ab6a20e5092ee45490a8a661d4c18ca87b56c806ce721b9c75"
+      },
+      "summary": {
+        "ar": "توريد وتركيب وصيانة وتنظيف أنظمة التكييف التجارية.",
+        "en": "Supply, installation, maintenance and cleaning of commercial AC systems.",
+        "reviewHash": "ce79ea8eb34c52ed9bbb89ca8efb6584dd855d146c563185c3c724ae5f67eb72"
+      },
+      "description": {
+        "ar": "نتعامل مع أنظمة التكييف في الوحدات التجارية، بدءًا من التوريد والتركيب، وصولًا إلى الصيانة والتنظيف وفق احتياج الموقع.",
+        "en": "We work with air conditioning systems in commercial facilities, from supply and installation to maintenance and cleaning based on site requirements.",
+        "reviewHash": "9281c55f50b403f846a565668bf8818d57ba3892ea9228b276a506829e4094be"
+      },
+      "items": [
+        {
+          "ar": "السبليت والكاسيت",
+          "en": "Split and cassette systems",
+          "reviewHash": "ca8f8afe8be90b574c97a552d21357c45ecae6111f62e948230dd59963cd1f9e"
+        },
+        {
+          "ar": "التكييف المركزي",
+          "en": "Central air conditioning",
+          "reviewHash": "0db051bf62a60677b603bbba48f95b61aa37f84c926e7d261344900cb4a60c9b"
+        },
+        {
+          "ar": "أنظمة التشيلر",
+          "en": "Chiller systems",
+          "reviewHash": "0861887cd945d553d8e4e4b4cf5ade844b03d85efa0038633b2e2bde2df4d96b"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.supply",
+    "_type": "service",
+    "key": "supply",
+    "value": {
+      "key": "supply",
+      "icon": "box",
+      "title": {
+        "ar": "توريد احتياجات المشاريع",
+        "en": "Project supply",
+        "reviewHash": "9d55d83043d2260fc7e111282e3c4a0afce94a9cdae7d2b5935f0c1bfb58e451"
+      },
+      "summary": {
+        "ar": "مواد ومنتجات تُوفّر بحسب متطلبات كل مشروع.",
+        "en": "Materials and products sourced around each project’s requirements.",
+        "reviewHash": "17b3c073149b81725834b34dce23da56a076ad67ea82651b0dca3c9f44831ec0"
+      },
+      "description": {
+        "ar": "نوفر مواد ومنتجات متنوعة بحسب طلب المشاريع ومواصفاتها. يُحدد نطاق التوريد بعد مناقشة الاحتياج، دون قائمة أصناف ثابتة.",
+        "en": "We source a variety of materials and products according to project requests and specifications. The supply scope is defined after discussing the need, rather than from a fixed product catalogue.",
+        "reviewHash": "d1f5edeadb6c4adc3985b4ce94c42c2ccf05d74f5ee866dd8f3dba6e565915a2"
+      },
+      "items": [
+        {
+          "ar": "تحديد احتياجات المشروع",
+          "en": "Project requirement review",
+          "reviewHash": "667aecb9a20cb35536c7bb0ff452ae1eb6c607e59410310827454fbc942b7aef"
+        },
+        {
+          "ar": "توريد المواد والمنتجات المطلوبة",
+          "en": "Supply of specified materials and products",
+          "reviewHash": "b758b786e069f04908bef7bad86ca711eb7b0a2b28ce322507b9ef522aeed54f"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.metal",
+    "_type": "service",
+    "key": "metal",
+    "value": {
+      "key": "metal",
+      "icon": "tools",
+      "title": {
+        "ar": "أعمال الحدادة",
+        "en": "Metal fabrication",
+        "reviewHash": "7782f6bbd490f382827f4ae17619712ca6687cc42a1f7497b35b646c0f92dba6"
+      },
+      "summary": {
+        "ar": "تنفيذ وتجديد العناصر والهياكل المعدنية.",
+        "en": "Fabrication and refurbishment of metal elements and structures.",
+        "reviewHash": "f68087595bbb0189aca4461c21a5a163aaab4a31f2686322c8b5682ab3059dee"
+      },
+      "description": {
+        "ar": "تشمل أعمالنا اللحام وتجديد العناصر المعدنية، وتنفيذ هياكل ودعامات وفق متطلبات الموقع.",
+        "en": "Our work includes welding, refurbishment of metal elements, and fabrication of structures and supports to suit the site.",
+        "reviewHash": "3d22672a1c541b2393f681b3283a0dd36856e463dbbd4ea39fbcadc38944dc67"
+      },
+      "items": [
+        {
+          "ar": "اللحام والتجديد",
+          "en": "Welding and refurbishment",
+          "reviewHash": "d6411d4eff4c0362e632f3ecef902247d5795c520dbab4886bb65d11a61ac8c1"
+        },
+        {
+          "ar": "الهياكل والدعامات المعدنية",
+          "en": "Metal structures and supports",
+          "reviewHash": "fce85c35c0d3862c7f74926d77d6033b37655f8a55492a6b1649dff07001f7d5"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.glass",
+    "_type": "service",
+    "key": "glass",
+    "value": {
+      "key": "glass",
+      "icon": "window",
+      "title": {
+        "ar": "الزجاج والألمنيوم",
+        "en": "Glass & aluminum",
+        "reviewHash": "adf59551b61e0dab4302cfb387431eca2be4f695242711949c654fd5195c2e1e"
+      },
+      "summary": {
+        "ar": "أعمال الواجهات والنوافذ والقواطع التجارية.",
+        "en": "Commercial storefront, window and partition works.",
+        "reviewHash": "a78d9b52d996b339fa10596d6e65a2a50f2083903aa26b3880ce1b689808e506"
+      },
+      "description": {
+        "ar": "ننفذ أعمال استبدال وتركيب الزجاج للواجهات والأقسام الداخلية، وأعمال النوافذ وإطارات الألمنيوم للمواقع التجارية.",
+        "en": "We replace and install glass for storefronts and internal partitions, and work on windows and aluminum frames in commercial facilities.",
+        "reviewHash": "0490ff079ede63f160cd913b4cedf25014c1fc62d74207166833cdbef154e329"
+      },
+      "items": [
+        {
+          "ar": "الواجهات والقواطع الزجاجية",
+          "en": "Glass storefronts and partitions",
+          "reviewHash": "1b84fc91453d66ac32772a404d447ae0df31effb6509b7e2fa3de9eaf29ce850"
+        },
+        {
+          "ar": "النوافذ وإطارات الألمنيوم",
+          "en": "Windows and aluminum frames",
+          "reviewHash": "2197199c438fcbd4e56a6f6932856959ba923437eb2003d3c12221e01fb274d9"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.painting",
+    "_type": "service",
+    "key": "painting",
+    "value": {
+      "key": "painting",
+      "icon": "paint",
+      "title": {
+        "ar": "أعمال الدهانات",
+        "en": "Painting works",
+        "reviewHash": "f2237f5a833f4019f27751cd2f12a94fcfd00ab9b84eeeeccc2608469e45af8c"
+      },
+      "summary": {
+        "ar": "تجهيز الأسطح والدهانات والتشطيبات.",
+        "en": "Surface preparation, painting and finishing.",
+        "reviewHash": "a12c983b1d11058d0ac449ef407d560bfe336bbe8e727e284fe4a37e5eaab2d7"
+      },
+      "description": {
+        "ar": "نجهز الأسطح بأعمال المعجون والصنفرة، وننفذ الدهانات والرتوش وإعادة الطلاء بما يتناسب مع طبيعة السطح واستخدام المكان.",
+        "en": "We prepare surfaces with filling and sanding, and carry out painting, touch-ups and recoating suited to the surface and use of the space.",
+        "reviewHash": "7797d82c07072e742d70bd6db07cc232b4d11587341395f93c6d1c2d346674e1"
+      },
+      "items": [
+        {
+          "ar": "تجهيز ومعالجة الأسطح",
+          "en": "Surface preparation",
+          "reviewHash": "6649824d5d52fe41ee94db94ee65856e5463f7d2f02dc75aba0c932215ba2789"
+        },
+        {
+          "ar": "الدهانات وإعادة الطلاء",
+          "en": "Painting and recoating",
+          "reviewHash": "116238ec2a51e027c58b5e886e187b69ac012a38ae6f0e695ff02de5f11e113a"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.signage",
+    "_type": "service",
+    "key": "signage",
+    "value": {
+      "key": "signage",
+      "icon": "sign",
+      "title": {
+        "ar": "اللافتات",
+        "en": "Signage",
+        "reviewHash": "706c7d3269c2da93156ef558b2672be6e92123c81106dd34960a1b9459b2e38a"
+      },
+      "summary": {
+        "ar": "تركيب واستبدال اللافتات والمواد البصرية التجارية.",
+        "en": "Installation and replacement of commercial signs and graphics.",
+        "reviewHash": "e567337defac1af367709181e9d1369f21b7ca4ac69db951ad97e28278d9b4f6"
+      },
+      "description": {
+        "ar": "ننفذ تركيب واستبدال اللافتات المضيئة والمواد الترويجية وديكورات الجدران المرتبطة بهوية المنشأة.",
+        "en": "We install and replace illuminated signs, promotional graphics and wall treatments aligned with the facility’s identity.",
+        "reviewHash": "06b26bb4ee41728d3f6c533b1e2f92a396bafbed3f2cc67366bd6417f02db184"
+      },
+      "items": [
+        {
+          "ar": "اللافتات المضيئة",
+          "en": "Illuminated signage",
+          "reviewHash": "4afe30c9c8e650f72bd77bdb405a31e8cb7e7bb85fef4605c32d9cd31af2009e"
+        },
+        {
+          "ar": "الملصقات وديكورات الجدران",
+          "en": "Graphics and wall treatments",
+          "reviewHash": "411486a00c2f544e86d8e65545cae0b12655536b047d0ef3294b873057dd3e72"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.flooring",
+    "_type": "service",
+    "key": "flooring",
+    "value": {
+      "key": "flooring",
+      "icon": "floor",
+      "title": {
+        "ar": "أعمال الأرضيات",
+        "en": "Flooring works",
+        "reviewHash": "e85decd243cb01c33b908cd52983cfc7e45e9f23ffd44bc8a036e71c50e561e4"
+      },
+      "summary": {
+        "ar": "تركيب وصيانة أرضيات البيئات التجارية والتشغيلية.",
+        "en": "Floor installation and maintenance for commercial environments.",
+        "reviewHash": "674ea1ec5b10cd8f9c646c79f25212df9195ba9def8bbb3aeb6ac399c512bd52"
+      },
+      "description": {
+        "ar": "تشمل أعمال الأرضيات تركيب وإصلاح البلاط والجرانيت والباركيه والإنترلوك، وأعمال الأرضيات الإيبوكسية بحسب احتياج الموقع.",
+        "en": "Flooring works include installation and repair of tile, granite, parquet and interlock, as well as epoxy flooring according to site needs.",
+        "reviewHash": "3ba4c949e5322d2af973ec8bb4e9777bf127776c43a339b0d137e4d66823b66e"
+      },
+      "items": [
+        {
+          "ar": "البلاط والجرانيت والباركيه",
+          "en": "Tile, granite and parquet",
+          "reviewHash": "5edf1538e59d254de9b12cc6619d001af598618b1bc883697a5e9dbb387d0e68"
+        },
+        {
+          "ar": "الإنترلوك والأرضيات الإيبوكسية",
+          "en": "Interlock and epoxy flooring",
+          "reviewHash": "df48f37ca87d4a535fb98e2bd7cee19160beeff6ddc5ae9a6b8b30900035d146"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.security",
+    "_type": "service",
+    "key": "security",
+    "value": {
+      "key": "security",
+      "icon": "shield",
+      "title": {
+        "ar": "أنظمة الأمان",
+        "en": "Security systems",
+        "reviewHash": "a11176d51048a922ef4d8bca90b22d312a438755b496ed51e0d15581822deb96"
+      },
+      "summary": {
+        "ar": "تركيب وصيانة أنظمة المراقبة والتحكم بالدخول والإنذار.",
+        "en": "Installation and maintenance of surveillance, access and alarm systems.",
+        "reviewHash": "f0ea32efc3344ffaf4ad1167b717fda585ef7b6fa879e6be82a2b6e62402e475"
+      },
+      "description": {
+        "ar": "نعمل على أنظمة المراقبة بالكاميرات والتحكم بالدخول والإنذار للمنشآت، وفق نطاق ومتطلبات المشروع التي تتم مراجعتها قبل التنفيذ.",
+        "en": "We work on facility camera surveillance, access control and alarm systems within a scope reviewed before execution.",
+        "reviewHash": "003cf6c180761c4cbfd6cce2389d31dcf768aa77af6a73b1296b77ba848471db"
+      },
+      "items": [
+        {
+          "ar": "أنظمة المراقبة والتحكم بالدخول",
+          "en": "Surveillance and access control",
+          "reviewHash": "bcd309d13dc31b2f8fab0b783ae6bed6e368e04cb53623e81eb2027bd98e7a97"
+        },
+        {
+          "ar": "أنظمة الإنذار",
+          "en": "Alarm systems",
+          "reviewHash": "f474198fcb33eb63e60f66f908935a2452a1451a9305ae8f82b6448a1a845274"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.networks",
+    "_type": "service",
+    "key": "networks",
+    "value": {
+      "key": "networks",
+      "icon": "network",
+      "title": {
+        "ar": "أعمال الشبكات",
+        "en": "Networking works",
+        "reviewHash": "48a417fedf5ecc824380f3ec60a56951b8170774cadd279a73377c6a8028ccad"
+      },
+      "summary": {
+        "ar": "تمديد وصيانة شبكات الاتصال والبيانات للمنشآت.",
+        "en": "Installation and maintenance of facility communication and data networks.",
+        "reviewHash": "b56b5ef97169113a9c80cdc25dc8e95456a0fa9afd8cebd4734e38c29f273a60"
+      },
+      "description": {
+        "ar": "ننفذ تمديد الكوابل وربط الشبكات وصيانتها ومعالجة أعطالها، وأعمال الاتصال الداخلي بحسب متطلبات المنشأة.",
+        "en": "We install cabling, connect and maintain networks, troubleshoot faults, and work on intercom systems according to facility requirements.",
+        "reviewHash": "472f9b6662d440b4c032539c91f1776d0bcaaaed43cb76b0aef6c5e618c72409"
+      },
+      "items": [
+        {
+          "ar": "شبكات البيانات والاتصال",
+          "en": "Data and communication networks",
+          "reviewHash": "6570d1ce0d58372b85ac7db8a445dcacbc15aa5c14a3e28f0685616b1a90a167"
+        },
+        {
+          "ar": "الكوابل والاتصال الداخلي",
+          "en": "Cabling and intercom systems",
+          "reviewHash": "0b5f71b1bf5c39742bc2e3bbe223c56603042266409b5a3442adae90158ad1f5"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "service.waterproofing",
+    "_type": "service",
+    "key": "waterproofing",
+    "value": {
+      "key": "waterproofing",
+      "icon": "drop",
+      "title": {
+        "ar": "أعمال العزل",
+        "en": "Waterproofing",
+        "reviewHash": "00851bc7d569053848255adbccd316c287aa51c748aa357b13be9441f237b8c4"
+      },
+      "summary": {
+        "ar": "معالجة التسربات وتطبيق مواد العزل.",
+        "en": "Leak treatment and waterproofing applications.",
+        "reviewHash": "b7f7e55c7dc954fed541da32e40037c9a7d2b91dcbb7aaaa6ca2e2074ecffb59"
+      },
+      "description": {
+        "ar": "ننفذ أعمال العزل وتطبيق المواد المانعة للتسرب بعد معاينة الموقع وتحديد المعالجة المناسبة لطبيعة السطح والمشكلة.",
+        "en": "We apply waterproofing and sealants after inspecting the site and determining a treatment suited to the surface and issue.",
+        "reviewHash": "91a65c022a3455214536da1d66fe3243663fd95577e2f867bd75776574bd7afa"
+      },
+      "items": [
+        {
+          "ar": "معاينة مواضع التسرب",
+          "en": "Leak assessment",
+          "reviewHash": "c33ad2c3ec486ff736376ff1940fafc33046c41286dfd4f70466832d91455abd"
+        },
+        {
+          "ar": "العزل والمواد المانعة للتسرب",
+          "en": "Waterproofing and sealant application",
+          "reviewHash": "dc195bf0ce425da7f2823580ae820d7c05c76dc12020813e5e97a9965f136d17"
+        }
+      ],
+      "image": {
+        "localPath": ""
+      }
+    }
+  },
+  {
+    "_id": "project.herra",
+    "_type": "project",
+    "key": "herra",
+    "value": {
+      "key": "herra",
+      "name": {
+        "ar": "مركز حراء التجاري",
+        "en": "Herra Mall",
+        "reviewHash": "9a6b6a897cea1dcc6845efa76271c5a9b67ffaf24e9903c4fca1e1b876cbfaa9"
+      },
+      "title": {
+        "ar": "معالجة آثار الفيضان",
+        "en": "Flood damage restoration",
+        "reviewHash": "43b75ca04c1df8019b3f8b935969f43ecbbff3875238d5ce6f5e8d6db7079cb8"
+      },
+      "summary": {
+        "ar": "أعمال معالجة وإعادة تأهيل عناصر متضررة داخل المركز التجاري.",
+        "en": "Restoration and refurbishment of affected building elements within the mall.",
+        "reviewHash": "26404d49629ded1f72f42e5b228c1d0135dd00efb798bae00db11933edfcf4d2"
+      },
+      "detail": {
+        "ar": "شملت الأعمال الموثقة في بروفايل الشركة سحب المياه ومعالجة المناطق المتأثرة، وأعمال الجدران والأسقف والواجهات والتشطيبات الداخلية.",
+        "en": "The company profile documents water removal, treatment of affected areas, and work on walls, ceilings, storefronts and interior finishes.",
+        "reviewHash": "926f173a12041bb7930d7f19eb722bc449bdcb866cd4ff81ba2161181346bc9c"
+      },
+      "image": {
+        "localPath": "/images/project-herra.webp"
+      },
+      "alt": {
+        "ar": "صورة من أعمال التأهيل في مركز حراء التجاري",
+        "en": "Photograph of restoration work at Herra Mall",
+        "reviewHash": "82deac7ae621449af061194b192e93c6be9fcba016667799aff651dc50cb0e36"
+      }
+    }
+  },
+  {
+    "_id": "project.canes",
+    "_type": "project",
+    "key": "canes",
+    "value": {
+      "key": "canes",
+      "name": {
+        "ar": "رايزينغ كينز",
+        "en": "Raising Cane’s",
+        "reviewHash": "d5308c3e9819baf0f35049b1740fcdf0677aa7984c9017ac3389f29d022b5a48"
+      },
+      "title": {
+        "ar": "تجديد فرع تجاري",
+        "en": "Commercial branch renovation",
+        "reviewHash": "ebce15a245beeeae6b16b0d51a9722d28e801c44b6229539addbf808156895a7"
+      },
+      "summary": {
+        "ar": "أعمال تجديد للواجهة والمساحات الداخلية وتجهيزات الفرع.",
+        "en": "Renovation of the facade, interior areas and branch fixtures.",
+        "reviewHash": "db0816d7704a18720713d1c47c1065de70ebab748143db627fe548594f88ae15"
+      },
+      "detail": {
+        "ar": "شملت الأعمال تحديث الإضاءة والأسقف والمقاعد والتشطيبات، ومعالجة الأسطح الخارجية والواجهة واللافتات بما يتوافق مع هوية الفرع.",
+        "en": "Work included lighting, ceilings, seating and finishes, along with exterior surfaces, facade and signage aligned with the branch identity.",
+        "reviewHash": "9d198319c76314785c5062b02d14c4ba992bb4f6587755cdb2ea56e3ae6cf74d"
+      },
+      "image": {
+        "localPath": "/images/project-canes.webp"
+      },
+      "alt": {
+        "ar": "صورة لفرع رايزينغ كينز ضمن مشروع التجديد",
+        "en": "Raising Cane’s branch photographed as part of the renovation project",
+        "reviewHash": "8885d9e3a6ce49b50e126965d412c5066c781d87d0e10bf4c9aa0ecd91d1d0ee"
+      }
+    }
+  },
+  {
+    "_id": "project.starbucks",
+    "_type": "project",
+    "key": "starbucks",
+    "value": {
+      "key": "starbucks",
+      "name": {
+        "ar": "ستاربكس",
+        "en": "Starbucks",
+        "reviewHash": "672f84a51e75b73b332ee37793f3147ec047c03c80958ad25d769b9eae90cae8"
+      },
+      "title": {
+        "ar": "تحديث شاشات قوائم العرض",
+        "en": "Digital menu display update",
+        "reviewHash": "0712c91aa568544cc0f903b70f831facb2cc9e1e7842178e0daae6450aa90dd8"
+      },
+      "summary": {
+        "ar": "أعمال تركيب الشاشات وتجهيز نقاط الكهرباء والشبكات المرتبطة بها.",
+        "en": "Display installation and the associated power and network connections.",
+        "reviewHash": "8858a399aef3adb5c536ab4c822940a146262ec6f1bdf964961a97c8a4731f92"
+      },
+      "detail": {
+        "ar": "تضمنت الأعمال المعاينة الميدانية وتركيب شاشات العرض وحواملها وتجهيز نقاط الكهرباء والربط الشبكي اللازمة لتشغيلها.",
+        "en": "The scope included site assessment, display and mount installation, and the power outlets and network connections needed for operation.",
+        "reviewHash": "bf598c7924538c4cfac46a8fc51389a587f58211d2466de53be2c4c6ae8b7902"
+      },
+      "image": {
+        "localPath": "/images/project-starbucks.webp"
+      },
+      "alt": {
+        "ar": "صورة لشاشات العرض ضمن مشروع ستاربكس",
+        "en": "Display screens photographed for the Starbucks project",
+        "reviewHash": "a02db13dce68b3ced8622e8dbd0bf1e57c4513d7b8cf76a0002be54d96b223fe"
+      }
+    }
+  },
+  {
+    "_id": "contactSettings",
+    "_type": "contactSettings",
+    "value": {
+      "phone": "+966551615518",
+      "opens": "08:00",
+      "closes": "17:00",
+      "timezone": "Asia/Riyadh",
+      "days": {
+        "ar": "الأحد إلى الخميس",
+        "en": "Sunday to Thursday",
+        "reviewHash": "fe674d0dd1215dcc12aa997b7c784ac13f121095db3ee284257ab8e32b550d4b"
+      }
+    }
+  }
+]

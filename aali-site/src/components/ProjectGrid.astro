@@ -1,0 +1,19 @@
+---
+import { localizeCopy, routeFor, type SiteContent } from '../cms/content';
+import { type Locale } from '../content/site';
+import Icon from './Icon.astro';
+interface Props { content: SiteContent; locale: Locale; detailed?: boolean; }
+const { locale, content, detailed = false } = Astro.props;
+const t = localizeCopy(content, locale);
+const { projects, common } = content;
+const route = routeFor(content);
+
+---
+<div class:list={['project-grid', { 'project-grid-detailed': detailed }]}>
+  {projects.map(project => (
+    <article class="project" id={detailed ? project.key : undefined}>
+      <div class="project-photo"><img src={project.image} alt={project.alt[locale]} width={project.key === 'herra' ? 339 : project.key === 'canes' ? 265 : 263} height={project.key === 'herra' ? 371 : project.key === 'canes' ? 227 : 260} loading="lazy" /><span>{common.actual[locale]}</span></div>
+      <div class="project-copy"><p class="project-client">{project.name[locale]}</p><h3>{project.title[locale]}</h3><p>{project.summary[locale]}</p>{detailed ? <p class="project-detail">{project.detail[locale]}</p> : <a class="text-link" href={`${route(locale, 'about')}#${project.key}`}>{t('عن المشروع', 'About the project')}<span class="direction-arrow"><Icon name="arrow" size={18}/></span></a>}</div>
+    </article>
+  ))}
+</div>

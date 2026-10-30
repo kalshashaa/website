@@ -1,0 +1,16 @@
+---
+import { localizeCopy, type SiteContent } from '../cms/content';
+import { type Locale } from '../content/site';
+import PageIntro from './PageIntro.astro';
+import ContactLink from './ContactLink.astro';
+import Icon from './Icon.astro';
+interface Props { content: SiteContent; locale: Locale; }
+const { locale, content } = Astro.props;
+const t = localizeCopy(content, locale);
+const { services, common } = content;
+
+---
+<PageIntro locale={locale} title={t('أعمال متكاملة. نطاق واضح.', 'Connected services. A clear scope.')} description={t('استعرض خدماتنا للشركات والمؤسسات. يُحدد نطاق كل عمل بحسب احتياج المشروع والمعاينة.', 'Explore our services for businesses and institutions. Each scope is defined around the project’s needs and site assessment.')}/>
+<section class="section"><div class="container services-layout"><aside class="service-navigation"><nav aria-label={t('انتقل إلى الخدمة', 'Jump to a service')}><p>{common.allServices[locale]}</p>{services.map(service => <a href={`#${service.key}`}>{service.title[locale]}<span aria-hidden="true">↓</span></a>)}</nav></aside><div class="service-details">{services.map(service => <article class="service-detail" id={service.key}><div class="detail-heading"><span class="service-icon"><Icon name={service.icon} size={32}/></span><h2>{service.title[locale]}</h2></div><p>{service.description[locale]}</p>{service.image && <figure class="service-detail-image"><img src={service.image} alt={service.title[locale]} width="900" height="500" loading="lazy"/><figcaption>{common.illustration[locale]}</figcaption></figure>}<ul>{service.items.map(item => <li><Icon name="check" size={18}/><span>{item[locale]}</span></li>)}</ul></article>)}</div></div></section>
+<ContactLink content={content} locale={locale}/>
+<style>.service-detail :global(.service-detail-image){margin:24px 0}.service-detail :global(.service-detail-image img){width:100%;max-height:360px;object-fit:cover}</style>
