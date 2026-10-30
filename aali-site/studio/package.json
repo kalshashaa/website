@@ -9,15 +9,15 @@
     "preview": "vite preview --host 127.0.0.1 --port 3333 --strictPort"
   },
   "dependencies": {
-    "sanity": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "styled-components": "latest"
+    "sanity": "6.21.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "styled-components": "6.6.0"
   },
   "devDependencies": {
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@vitejs/plugin-react": "latest",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
     "vite": "8.3.5",
     "typescript": "6.0.3"
   }

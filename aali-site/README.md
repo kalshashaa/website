@@ -1,6 +1,6 @@
 # Aali Aljazerah Local Review Build
 
-The eight-page bilingual public website is implemented for local design and content review. It is not a complete production release. Real Sanity editing, authenticated draft preview, publish automation, cloud integration, and deployment are the next phase after owner review.
+The owner approved the eight-page bilingual public frontend and its copy. Sanity Studio, structured editing schemas, bilingual review reminders, content loading and signed draft-preview endpoints are now implemented and build locally. This is not a production-complete release: a real Sanity account, authenticated cloud editing, publication hooks and deployment still require setup and end-to-end verification.
 
 ## Open the current preview
 
@@ -41,7 +41,11 @@ There are four content pages in each language. A technical 404 document, robots.
 
 ## Credentials and CMS
 
-No API credentials exist in this build. `.env.example` documents future configuration names, not real secrets. A populated CMS configuration and genuine cloud integration must be implemented and tested before claiming that owner editing works. Do not deploy this build and represent it as the finished specification.
+No API credentials exist in this build. `.env.example` documents configuration names, not real secrets. `CONTENT_SOURCE=local` keeps the approved local pages available while the CMS account is being prepared; draft preview can use a connected Sanity dataset independently. `CONTENT_SOURCE=sanity` is enabled only after the required documents are published and validated. Missing or unreviewed published documents fail a build rather than silently falling back to sample content.
+
+Run the separate Studio with `pnpm --dir studio dev` on `http://127.0.0.1:3333/`. Until its public project identifier is configured it shows an honest setup state instead of a mock editor or fake sign-in. Use `pnpm --dir studio build` to type-check and build it. Studio has its own lockfile-pinned dependencies within the root workspace.
+
+See `../docs/cms-setup.md` for the secure connection procedure and `../docs/cms-implementation-report.md` for verified behavior and outstanding checks. Never deploy this snapshot and represent it as a fully tested production system.
 
 ## Review and handover records
 

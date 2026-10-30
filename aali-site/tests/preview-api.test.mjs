@@ -36,7 +36,7 @@ test('unknown preview routes fail and logout rejects cross-origin submissions',a
   assert.equal((await fetch(`${origin}/preview/ar/unknown/`)).status,404);
   assert.equal((await fetch(`${origin}/api/preview/disable/`,{method:'POST',headers:{Origin:'https://evil.example'},redirect:'manual'})).status,403);
   const response=await fetch(`${origin}/api/preview/disable/`,{method:'POST',headers:{Origin:origin},redirect:'manual'});
-  assert.equal(response.status,303);
+  assert.equal(response.status,303,await response.text());
   assert.match(response.headers.get('set-cookie')||'',/Max-Age=0/);
   assert.equal(response.headers.get('location'),'/');
 });
